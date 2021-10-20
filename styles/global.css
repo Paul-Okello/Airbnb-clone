@@ -1,0 +1,12 @@
+@tailwind components;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+
+@layer components {
+  .search-button {
+    @apply px-4 py-2 border hover:cursor-pointer rounded-full hover:shadow-lg active:scale-95 active:bg-gray-100 transition transform duration-100 ease-out;
+  }
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+}
